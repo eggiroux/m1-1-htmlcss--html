@@ -1,1 +1,71 @@
-<!-- ...crickets... -->
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Registration form</h1>
+
+    <form>
+       <div>
+           <label for="username">Username</label> 
+           <input type="text" id="username" required></input>
+           <label for="password"> password</label> 
+           <input type="password" id="password" required></input>
+       </div>
+
+        <div>
+            <label for="email">Email</label> 
+            <input type="email" id="email" required></input>
+        </div>
+        
+        <div>
+            <div>Which taxi do you require?</div>
+            <div>
+                <input type="radio" id ="car" name="taxiType" required>
+                <label for="car">Car</label>
+             </div>
+             <div>
+                <input type="radio" id ="van" name="taxiType" required>
+                <label for="van">Van</label>
+             </div>
+             <div>
+                <input type="radio" id ="tuktuk" name="taxiType" required>
+                <label for="tuktuk">Tuk Tuk</label>
+             </div>
+
+        </div>
+
+        <div>
+            <div>Extras</div>
+            <div>
+                <input type="checkbox" id ="babySeat">
+                <label for="babySeat">Baby Seat</label>
+             </div>
+             <div>
+                <input type="checkbox" id ="wheelChair">
+                <label for="wheelChair">Wheelchair Access</label>
+             </div>
+             <div>
+                <input type="checkbox" id ="stockTip">
+                <label for="stockTip">Stock Tip</label>
+             </div>
+
+        <div>
+            <label for="pickup">Pickup</label>
+            <select id="pickup">
+                <option>Select One</option>
+                <option>Taxi Office</option>
+                <option>Town Hall</option>
+                <option>We'll Guess!</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="special"> Special </label>
+            <textarea id="special"></textarea>
+        </div>
+
+        <input type="submit">
+    </form>
+
+
+  </body>
+</html>
