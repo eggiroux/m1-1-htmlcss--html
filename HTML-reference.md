@@ -108,7 +108,7 @@ The li tag is for list elements. The parent of an li element should be a ul or o
 
 ## `ol`
 
-The ul tag is for numbered lists. The children of a ol element should be li elements
+The ol tag is for numbered lists. The children of a ol element should be li elements
 
 ## `select`
 
